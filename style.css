@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.secao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.resetar-secao {
+    text-align: center;
+    margin: 30px 0;
+}
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+#incremento:hover, #incremento:focus,
+#decremento:hover, #decremento:focus,
+#adicionarLista:hover, #adicionarLista:focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff, 0 0 100px #008cff;
+}
+
+#resetar:hover, #resetar:focus {
+    color: #ffffff;
+    background: #BF0413;
+    border: 1px solid #BF0413;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #BF0413, 0 0 20px #BF0413, 0 0 50px #BF0413, 0 0 100px #BF0413;
+}
+
+.input {
+    color: white;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 250px;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #8707ff;
+}
+
+select {
+    color: white;
+    background: black;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#contador {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008cff;
+    min-width: 50px;
+    text-align: center;
+}
+
+#contadorCaracteres {
+    font-size: 14px;
+    color: #8707ff;
+    margin-left: 10px;
+}
+
+#conteudoDinamico {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    min-height: 100px;
+}
+
+.paragrafo-adicionado {
+    background: rgba(0, 140, 255, 0.2);
+    border-left: 3px solid #008cff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.item {
+    background: rgba(135, 7, 255, 0.2);
+    border: 1px solid #8707ff;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 5px;
+    display: inline-block;
+    color: white;
+}
+
+ol, ul {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+}

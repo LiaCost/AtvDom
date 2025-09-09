@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+        <h1>DOM - CONCEITOS BÁSICOS</h1>
+    </header>
+    
+    <div class="secao">
+        <button id="incremento">+</button>
+        <span id="contador">0</span>
+        <button id="decremento">-</button>
+    </div>
+    
+    <div class="secao">
+        <input placeholder="Digite aqui...." 
+        class="input" id="textInput" type="text"/>
+        <span id="contadorCaracteres">0 caracteres</span>
+    </div>
+    
+    <div id="conteudoDinamico">
+        <h3 style="text-align: center; color: #008cff;">Parágrafos</h3>
+        <div id="paragrafos"></div>
+    </div>
+    
+    <div class="secao">
+        <input placeholder="Digite item para lista..."
+        class="input" id="textInputLista" type="text">
+        <select id="tipoLista">
+            <option value="ul">Lista não ordenada</option>
+            <option value="ol">Lista ordenada</option>
+        </select>
+        <button id="adicionarLista">Adicionar à lista</button>
+    </div>
+    
+    <div id="conteudoListas" style="margin-top: 30px; padding: 20px; border: 1px solid #333; border-radius: 10px; min-height: 100px;">
+        <h3 style="text-align: center; color: #8707ff;">Listas</h3>
+        <div id="listas"></div>
+    </div>
+    
+    <div class="resetar-secao">
+        <button id="resetar">Resetar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
